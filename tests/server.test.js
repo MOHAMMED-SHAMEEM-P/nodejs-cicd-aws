@@ -8,7 +8,7 @@ describe('Application tests', () => {
         const response = await request(app).get('/');
 
         expect(response.statusCode).toBe(200);
-        expect(response.text).toBe('Welcome to my CI/CD project!');
+        expect(response.text).toBe('Welcome to my automated AWS CI/CD deployment!');
     });
 
     test('Health endpoint should return healthy status', async () => {

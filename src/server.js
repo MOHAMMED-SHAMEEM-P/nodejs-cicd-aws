@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Welcome to my CI/CD project!');
+    res.send('Welcome to my automated AWS CI/CD deployment!');
 });
 
 app.get('/health', (req, res) => {
